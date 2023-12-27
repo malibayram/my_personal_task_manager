@@ -1,6 +1,8 @@
 # my_personal_task_manager
 
-## To see the Turkish version of the project, please check main-tr branch by clicking [here](my_personal_task_manager)
+## To see the Turkish version of the project, please check main-tr branch by clicking [here](https://github.com/malibayram/my_personal_task_manager/tree/main-tr)
+
+## [Live Demo for Web](https://my-personal-task-manager.web.app)
 
 An opensource task manager app for personal use. It is developed with Flutter and Dart in frontend, and Firebase in backend. It differs from other task manager apps with several features such as:
 
@@ -21,3 +23,16 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Project Milestones
+
+- [x] Creation of the Flutter project and uploading it to GitHub
+- [x] Creation of the Firebase project and linking it to the Flutter project
+- [ ] Implementing CI/CD processes with Github Actions and deploying to Firebase Hosting (Next steps are listed below)
+  - [ ] Conducting Flutter tests
+  - [ ] Building the Flutter application for Android and deploying it to the Google Play Store
+  - [ ] Building the Flutter application for iOS and deploying it to the App Store
+- [ ] Implementing user login and registration processes with Firebase Authentication
+- [ ] Conducting database operations with Firebase Firestore
+- [ ] Performing backend operations with Firebase Cloud Functions
+- [ ] ...
