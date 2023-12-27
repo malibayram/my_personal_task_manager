@@ -2,6 +2,8 @@
 
 Kişisel kullanım için açık kaynaklı bir görev yönetici uygulaması. Ön yüzde Flutter ve Dart ile, arka yüzde Firebase ile geliştirilmiştir. Diğer görev yönetici uygulamalarından bazı özellikleri ile ayrılır:
 
+## [Web projesinin Canlı Örneği](https://my-personal-task-manager.web.app)
+
 - Görevlerinizi boru hattı sistemi kullanarak sınırlar. Her boru hattında sınırlı sayıda göreviniz olabilir. (Daha sonra detaylı açıklanacak)
 - Ücretsiz ve açık kaynaklıdır.
 - Flutter ve Dart ile geliştirildiği için çapraz platformdadır.
@@ -20,8 +22,8 @@ Flutter geliştirmeye başlamak için yardım almak isterseniz, [çevrimiçi dö
 
 ## Proje Kilometre Taşları
 
-- [ ] Flutter projesinin oluşturulması ve github'a yüklenmesi
-- [ ] Firebase projesinin oluşturulması ve Flutter projesine bağlanması
+- [x] Flutter projesinin oluşturulması ve github'a yüklenmesi
+- [x] Firebase projesinin oluşturulması ve Flutter projesine bağlanması
 - [ ] Github Actions ile CI/CD işlemlerinin yapılarak Firebase Hosting'e deploy edilmesi (Sonraki adımlar aşağıda belirtilmiştir)
   - [ ] Flutter testlerinin yapılması
   - [ ] Flutter uygulamasının Android için build edilmesi ve Google Play Store'a deploy edilmesi
@@ -29,4 +31,3 @@ Flutter geliştirmeye başlamak için yardım almak isterseniz, [çevrimiçi dö
 - [ ] Firebase Authentication ile kullanıcı giriş ve kayıt işlemlerinin yapılması
 - [ ] Firebase Firestore ile veritabanı işlemlerinin yapılması
 - [ ] Firebase Cloud Functions ile backend işlemlerinin yapılması
-- [ ] ...
