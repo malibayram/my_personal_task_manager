@@ -1,23 +1,33 @@
-# my_personal_task_manager
+# kişisel_görev_yöneticim
 
-## To see the Turkish version of the project, please check main-tr branch by clicking [here](my_personal_task_manager)
+Kişisel kullanım için açık kaynaklı bir görev yönetici uygulaması. Ön yüzde Flutter ve Dart ile, arka yüzde Firebase ile geliştirilmiştir. Diğer görev yönetici uygulamalarından bazı özellikleri ile ayrılır:
 
-An opensource task manager app for personal use. It is developed with Flutter and Dart in frontend, and Firebase in backend. It differs from other task manager apps with several features such as:
+## [Web projesinin Canlı Örneği](https://my-personal-task-manager.web.app)
 
-- It is limit your tasks using pipeline system. You can only have limited number of tasks in each pipeline. (Will be described in detail later)
-- It is free and open source.
-- It is developed with Flutter and Dart, which means it is cross-platform.
-- It is developed with Firebase, which means it is scalable and secure.
+- Görevlerinizi boru hattı sistemi kullanarak sınırlar. Her boru hattında sınırlı sayıda göreviniz olabilir. (Daha sonra detaylı açıklanacak)
+- Ücretsiz ve açık kaynaklıdır.
+- Flutter ve Dart ile geliştirildiği için çapraz platformdadır.
+- Firebase ile geliştirildiği için ölçeklenebilir ve güvenlidir.
 
-## Getting Started with Flutter
+## Flutter'a Başlama Rehberi
 
-This project is a starting point for a Flutter application.
+Bu proje, bir Flutter uygulaması için başlangıç noktasıdır.
 
-A few resources to get you started if this is your first Flutter project:
+Bu sizin ilk Flutter projenizse başlamak için birkaç kaynak:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Lab: İlk Flutter uygulamanızı yazın](https://docs.flutter.dev/get-started/codelab)
+- [Yemek Kitabı: Kullanışlı Flutter örnekleri](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter geliştirmeye başlamak için yardım almak isterseniz, [çevrimiçi dökümantasyona](https://docs.flutter.dev/) bakabilirsiniz, burada mobil geliştirme üzerine eğitimler, örnekler, rehberlik ve tam bir API referansı sunulmaktadır.
+
+## Proje Kilometre Taşları
+
+- [x] Flutter projesinin oluşturulması ve github'a yüklenmesi
+- [x] Firebase projesinin oluşturulması ve Flutter projesine bağlanması
+- [ ] Github Actions ile CI/CD işlemlerinin yapılarak Firebase Hosting'e deploy edilmesi (Sonraki adımlar aşağıda belirtilmiştir)
+  - [ ] Flutter testlerinin yapılması
+  - [ ] Flutter uygulamasının Android için build edilmesi ve Google Play Store'a deploy edilmesi
+  - [ ] Flutter uygulamasının iOS için build edilmesi ve App Store'a deploy edilmesi
+- [ ] Firebase Authentication ile kullanıcı giriş ve kayıt işlemlerinin yapılması
+- [ ] Firebase Firestore ile veritabanı işlemlerinin yapılması
+- [ ] Firebase Cloud Functions ile backend işlemlerinin yapılması
